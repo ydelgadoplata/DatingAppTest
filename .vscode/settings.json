@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "editor.cursorBlinking": "smooth",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "explorer.openEditors.visible": 5
+}
