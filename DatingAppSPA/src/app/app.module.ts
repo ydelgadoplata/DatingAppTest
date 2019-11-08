@@ -69,14 +69,14 @@ export class CustomHammerConfig extends HammerGestureConfig {
       })
    ],
    providers: [
+      { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig },
       AuthService,
       ErrorInterceptorProvider,
       AlertifyService,
       AuthGuard,
       UserService,
       MemberDetailResolver,
-      MemberListResolver,
-      { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }
+      MemberListResolver
    ],
    bootstrap: [
       AppComponent
