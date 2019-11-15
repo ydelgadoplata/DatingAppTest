@@ -2,7 +2,10 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
     "editor.cursorBlinking": "smooth",
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "explorer.openEditors.visible": 5,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBorder": "#ffee00"
+      }
 }
