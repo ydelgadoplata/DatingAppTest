@@ -35,7 +35,7 @@ namespace DatingApp.API.Controllers
             return Ok(usersToReturn);
         }
 
-        [HttpGet("{id}")] // metodo para traer un usuario especifico
+        [HttpGet("{id}", Name = "GetUser")] // metodo para traer un usuario especifico
         public async Task<IActionResult> GetUser(int id)
         {
             var user = await _repo.GetUser(id);
